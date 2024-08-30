@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.clock-container{
+    margin: 15% auto;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+#hours,#minutes,#seconds{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
